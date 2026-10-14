@@ -15,6 +15,11 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  images: {
+    unoptimized: true,
+  },
+  output: "export",
+  allowedDevOrigins: ["sorer-ineradicable-yolande.ngrok-free.dev"],
 };
 
 export default nextConfig;
